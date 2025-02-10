@@ -5,3 +5,4 @@ textblob
 beautifulsoup4
 requests
 gunicorn
+waitress
