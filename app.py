@@ -88,5 +88,7 @@ def get_stock_analysis():
                            pivot=pivot_levels, sentiment=round(sentiment_score, 2),
                            trend_score=round(trend_score, 2), news=news_headlines)
 
+from waitress import serve
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    serve(app, host="0.0.0.0", port=8080)
