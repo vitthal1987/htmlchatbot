@@ -1,0 +1,7 @@
+Flask
+yfinance
+pytrends
+textblob
+beautifulsoup4
+requests
+gunicorn
